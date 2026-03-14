@@ -1,4 +1,12 @@
 /* Set background color */
+@font-face {
+    font-family: "Codec Pro";
+    src: url("../fonts/CodecPro-Ultra.woff2") format("woff2");
+	
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,6 +27,17 @@ body {
     max-width: 900px;
     height: auto;
     margin-bottom: 5px;
+}
+
+h1, h2, h3 {
+    font-family: "Codec Pro", Arial, sans-serif;
+}
+
+
+.slogan {
+	font-size: 48px;
+	color: #3c2828;
+	margin-bottom: 150px;
 }
 
 p {

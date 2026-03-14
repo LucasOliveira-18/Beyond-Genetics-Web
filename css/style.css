@@ -15,7 +15,7 @@ body {
     justify-content: center;
     height: 100vh;
     text-align: center;
-    background-color: #f7ecd7;  /* new background color */
+    background-color: #f8ab14;  /* new background color */
 }
 
 .container {
@@ -24,9 +24,9 @@ body {
 }
 
 .logo {
+    width: 100%;
     max-width: 900px;
     height: auto;
-    margin-bottom: 5px;
 }
 
 h1, h2, h3 {
@@ -35,8 +35,9 @@ h1, h2, h3 {
 
 
 .slogan {
-	font-size: 48px;
+	font-size: clamp(28px, 6vw, 50px);
 	color: #3c2828;
+	margin-top: 20px;
 	margin-bottom: 150px;
 }
 
